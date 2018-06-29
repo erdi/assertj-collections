@@ -1,0 +1,3 @@
+moduleName = assertj-module
+moduleVersion = 1.0
+extensionClasses = IterableExtension

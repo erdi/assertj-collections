@@ -1,0 +1,10 @@
+plugins {
+	id "idea"
+	id "groovy"
+}
+
+dependencies {
+	compile "org.codehaus.groovy:groovy-all:2.5.0"
+	testCompile project(":assertj-groovy")
+	testCompile "org.spockframework:spock-core:1.1-groovy-2.4"
+}
